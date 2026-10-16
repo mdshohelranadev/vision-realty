@@ -1,0 +1,864 @@
+[
+  {
+    "id": "prj-001",
+    "slug": "vision-organza",
+    "name": "Vision Organza",
+    "category": "complete",
+    "location": "Plot# 13, Shah Makhdum Avenue, Sector# 12, Uttara, Dhaka",
+    "plot": "Plot# 13",
+    "road": "Shah Makhdum Avenue",
+    "sector": "Sector# 12",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision Organza is a completed residential address in Uttara, delivered to the standard Vision has built its reputation on: considered planning, honest materials and a finish that holds up long after handover. Located on Plot# 13, Shah Makhdum Avenue in Uttara, it offers 08 storied living with 1450 SFT / 1650 SFT apartments and 16 dedicated car parking bays.",
+    "featured": true,
+    "status": "Handed Over",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "1450 SFT / 1650 SFT",
+      "carParking": "16",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Intercom"
+    ],
+    "coordinates": {
+      "lat": 23.8679,
+      "lng": 90.3875
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2014-01-05T00:00:00.000Z"
+  },
+  {
+    "id": "prj-002",
+    "slug": "vision-cressida",
+    "name": "Vision Cressida",
+    "category": "complete",
+    "location": "Plot# 11, Road# 09, Sector# 12, Uttara, Dhaka",
+    "plot": "Plot# 11",
+    "road": "Road# 09",
+    "sector": "Sector# 12",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision Cressida is a completed residential address in Uttara, delivered to the standard Vision has built its reputation on: considered planning, honest materials and a finish that holds up long after handover. Located on Plot# 11, Road# 09 in Uttara, it offers 07 storied living with 1350 SFT apartments and 12 dedicated car parking bays.",
+    "featured": true,
+    "status": "Handed Over",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "1350 SFT",
+      "carParking": "12",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.8719,
+      "lng": 90.3835
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2015-03-06T00:00:00.000Z"
+  },
+  {
+    "id": "prj-003",
+    "slug": "vision-casselia",
+    "name": "Vision Casselia",
+    "category": "complete",
+    "location": "Plot# 15, Road# 01, Sector# 12, Uttara, Dhaka",
+    "plot": "Plot# 15",
+    "road": "Road# 01",
+    "sector": "Sector# 12",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision Casselia is a completed residential address in Uttara, delivered to the standard Vision has built its reputation on: considered planning, honest materials and a finish that holds up long after handover. Located on Plot# 15, Road# 01 in Uttara, it offers 07 storied living with 1400 SFT / 1550 SFT apartments and 12 dedicated car parking bays.",
+    "featured": false,
+    "status": "Handed Over",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "1400 SFT / 1550 SFT",
+      "carParking": "12",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.8759,
+      "lng": 90.3795
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2016-05-07T00:00:00.000Z"
+  },
+  {
+    "id": "prj-004",
+    "slug": "vision-cassandra",
+    "name": "Vision Cassandra",
+    "category": "complete",
+    "location": "Plot# 61, Road# 19, Sector# 11, Uttara, Dhaka",
+    "plot": "Plot# 61",
+    "road": "Road# 19",
+    "sector": "Sector# 11",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision Cassandra is a completed residential address in Uttara, delivered to the standard Vision has built its reputation on: considered planning, honest materials and a finish that holds up long after handover. Located on Plot# 61, Road# 19 in Uttara, it offers 08 storied living with 1500 SFT apartments and 14 dedicated car parking bays.",
+    "featured": true,
+    "status": "Handed Over",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "1500 SFT",
+      "carParking": "14",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.8799,
+      "lng": 90.3755
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2017-07-08T00:00:00.000Z"
+  },
+  {
+    "id": "prj-005",
+    "slug": "vision-beacon",
+    "name": "Vision Beacon",
+    "category": "complete",
+    "location": "Plot# 92, Road# 12, Block# F, Bashundhara R/A, Dhaka",
+    "plot": "Plot# 92",
+    "road": "Road# 12",
+    "sector": "Block# F",
+    "area": "Bashundhara R/A",
+    "city": "Dhaka",
+    "description": "Vision Beacon is a completed residential address in Bashundhara R/A, delivered to the standard Vision has built its reputation on: considered planning, honest materials and a finish that holds up long after handover. Located on Plot# 92, Road# 12 in Bashundhara R/A, it offers 09 storied living with 1800 SFT / 2100 SFT apartments and 18 dedicated car parking bays.",
+    "featured": true,
+    "status": "Handed Over",
+    "specifications": {
+      "building": "09 Storied",
+      "apartmentSize": "1800 SFT / 2100 SFT",
+      "carParking": "18",
+      "totalApartments": "16"
+    },
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.8273,
+      "lng": 90.4446
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2018-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "prj-006",
+    "slug": "vision-decidela",
+    "name": "Vision Decidela",
+    "category": "complete",
+    "location": "Plot# 120, Road# 10, Block# F, Bashundhara R/A, Dhaka",
+    "plot": "Plot# 120",
+    "road": "Road# 10",
+    "sector": "Block# F",
+    "area": "Bashundhara R/A",
+    "city": "Dhaka",
+    "description": "Vision Decidela is a completed residential address in Bashundhara R/A, delivered to the standard Vision has built its reputation on: considered planning, honest materials and a finish that holds up long after handover. Located on Plot# 120, Road# 10 in Bashundhara R/A, it offers 08 storied living with 1650 SFT apartments and 14 dedicated car parking bays.",
+    "featured": false,
+    "status": "Handed Over",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "1650 SFT",
+      "carParking": "14",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Gymnasium",
+      "Community Hall",
+      "Intercom"
+    ],
+    "coordinates": {
+      "lat": 23.8113,
+      "lng": 90.4606
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2019-11-10T00:00:00.000Z"
+  },
+  {
+    "id": "prj-007",
+    "slug": "signovision",
+    "name": "SignoVision",
+    "category": "complete",
+    "location": "Plot# 46, Road# 10, Dhaka Cantonment, Dhaka",
+    "plot": "Plot# 46",
+    "road": "Road# 10",
+    "sector": "",
+    "area": "Dhaka Cantonment",
+    "city": "Dhaka",
+    "description": "SignoVision is a completed residential address in Dhaka Cantonment, delivered to the standard Vision has built its reputation on: considered planning, honest materials and a finish that holds up long after handover. Located on Plot# 46, Road# 10 in Dhaka Cantonment, it offers 08 storied living with 2200 SFT apartments and 16 dedicated car parking bays.",
+    "featured": true,
+    "status": "Handed Over",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "2200 SFT",
+      "carParking": "16",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Community Hall",
+      "Intercom",
+      "Children's Play Area"
+    ],
+    "coordinates": {
+      "lat": 23.8063,
+      "lng": 90.404
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2020-01-11T00:00:00.000Z"
+  },
+  {
+    "id": "prj-008",
+    "slug": "vision-d-wealth",
+    "name": "Vision D' Wealth",
+    "category": "ongoing",
+    "location": "Plot# 12, Road# 12, Sector# 04, Uttara, Dhaka",
+    "plot": "Plot# 12",
+    "road": "Road# 12",
+    "sector": "Sector# 04",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision D' Wealth is rising in Uttara, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 12, Road# 12 in Uttara, it offers 09 storied living with 1700 SFT / 1900 SFT apartments and 18 dedicated car parking bays.",
+    "featured": true,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "09 Storied",
+      "apartmentSize": "1700 SFT / 1900 SFT",
+      "carParking": "18",
+      "totalApartments": "16"
+    },
+    "image": "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Intercom",
+      "Children's Play Area",
+      "Water Reservoir"
+    ],
+    "coordinates": {
+      "lat": 23.8759,
+      "lng": 90.3795
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2023-03-12T00:00:00.000Z"
+  },
+  {
+    "id": "prj-009",
+    "slug": "vision-absolon",
+    "name": "Vision Absolon",
+    "category": "ongoing",
+    "location": "Plot# 31, Road# 01, Sector# 12, Uttara, Dhaka",
+    "plot": "Plot# 31",
+    "road": "Road# 01",
+    "sector": "Sector# 12",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision Absolon is rising in Uttara, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 31, Road# 01 in Uttara, it offers 07 storied living with 1400 SFT apartments and 12 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "1400 SFT",
+      "carParking": "12",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Intercom",
+      "Children's Play Area",
+      "Water Reservoir"
+    ],
+    "coordinates": {
+      "lat": 23.8799,
+      "lng": 90.3755
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2024-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "prj-010",
+    "slug": "vision-lfoyer",
+    "name": "Vision L'foyer",
+    "category": "ongoing",
+    "location": "Plot# 37, Road# 18, Sector# 07, Uttara, Dhaka",
+    "plot": "Plot# 37",
+    "road": "Road# 18",
+    "sector": "Sector# 07",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision L'foyer is rising in Uttara, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 37, Road# 18 in Uttara, it offers 08 storied living with 1550 SFT apartments and 14 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "1550 SFT",
+      "carParking": "14",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Children's Play Area",
+      "Water Reservoir",
+      "Gas Supply"
+    ],
+    "coordinates": {
+      "lat": 23.8839,
+      "lng": 90.3715
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2022-07-14T00:00:00.000Z"
+  },
+  {
+    "id": "prj-011",
+    "slug": "vision-dor",
+    "name": "Vision D'or",
+    "category": "ongoing",
+    "location": "Plot# 30, Road# 11, Sector# 06, Uttara, Dhaka",
+    "plot": "Plot# 30",
+    "road": "Road# 11",
+    "sector": "Sector# 06",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision D'or is rising in Uttara, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 30, Road# 11 in Uttara, it offers 07 storied living with 1500 SFT / 1750 SFT apartments and 12 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "1500 SFT / 1750 SFT",
+      "carParking": "12",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Water Reservoir",
+      "Gas Supply",
+      "High-Speed Internet Ready"
+    ],
+    "coordinates": {
+      "lat": 23.8679,
+      "lng": 90.3875
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2023-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "prj-012",
+    "slug": "vision-lenid",
+    "name": "Vision Le'nid",
+    "category": "ongoing",
+    "location": "Plot# 06, Road# 10, Sector# 11, Uttara, Dhaka",
+    "plot": "Plot# 06",
+    "road": "Road# 10",
+    "sector": "Sector# 11",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision Le'nid is rising in Uttara, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 06, Road# 10 in Uttara, it offers 07 storied living with 1300 SFT apartments and 10 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "1300 SFT",
+      "carParking": "10",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Gas Supply",
+      "High-Speed Internet Ready",
+      "Security Guard Station"
+    ],
+    "coordinates": {
+      "lat": 23.8719,
+      "lng": 90.3835
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2024-11-16T00:00:00.000Z"
+  },
+  {
+    "id": "prj-013",
+    "slug": "vision-montrose",
+    "name": "Vision Montrose",
+    "category": "ongoing",
+    "location": "Plot# 01, Road# 17, Sector# 10, Uttara, Dhaka",
+    "plot": "Plot# 01",
+    "road": "Road# 17",
+    "sector": "Sector# 10",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision Montrose is rising in Uttara, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 01, Road# 17 in Uttara, it offers 08 storied living with 1600 SFT apartments and 14 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "1600 SFT",
+      "carParking": "14",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "High-Speed Internet Ready",
+      "Security Guard Station",
+      "Gymnasium"
+    ],
+    "coordinates": {
+      "lat": 23.8759,
+      "lng": 90.3795
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2022-01-17T00:00:00.000Z"
+  },
+  {
+    "id": "prj-014",
+    "slug": "vision-tierra",
+    "name": "Vision Tierra",
+    "category": "ongoing",
+    "location": "Plot# 61, Road# 14/A, Block# G, Niketon, Gulshan, Dhaka",
+    "plot": "Plot# 61",
+    "road": "Road# 14/A",
+    "sector": "Block# G",
+    "area": "Niketon",
+    "city": "Gulshan, Dhaka",
+    "description": "Vision Tierra is rising in Niketon, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 61, Road# 14/A in Niketon, it offers 09 storied living with 2400 SFT / 2800 SFT apartments and 18 dedicated car parking bays.",
+    "featured": true,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "09 Storied",
+      "apartmentSize": "2400 SFT / 2800 SFT",
+      "carParking": "18",
+      "totalApartments": "16"
+    },
+    "image": "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Security Guard Station",
+      "Rooftop Garden",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.7885,
+      "lng": 90.4047
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2023-03-18T00:00:00.000Z"
+  },
+  {
+    "id": "prj-015",
+    "slug": "vision-tresor",
+    "name": "Vision Tresor",
+    "category": "ongoing",
+    "location": "Plot# 194/B, Road# 07, Block# C, Bashundhara R/A, Dhaka",
+    "plot": "Plot# 194/B",
+    "road": "Road# 07",
+    "sector": "Block# C",
+    "area": "Bashundhara R/A",
+    "city": "Dhaka",
+    "description": "Vision Tresor is rising in Bashundhara R/A, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 194/B, Road# 07 in Bashundhara R/A, it offers 08 storied living with 1750 SFT apartments and 14 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "1750 SFT",
+      "carParking": "14",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Intercom"
+    ],
+    "coordinates": {
+      "lat": 23.8273,
+      "lng": 90.4446
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2024-05-19T00:00:00.000Z"
+  },
+  {
+    "id": "prj-016",
+    "slug": "vision-mehrab-garden",
+    "name": "Vision Mehrab Garden",
+    "category": "ongoing",
+    "location": "Plot# 20, Road# 04, Dhaka Cantonment, Dhaka",
+    "plot": "Plot# 20",
+    "road": "Road# 04",
+    "sector": "",
+    "area": "Dhaka Cantonment",
+    "city": "Dhaka",
+    "description": "Vision Mehrab Garden is rising in Dhaka Cantonment, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 20, Road# 04 in Dhaka Cantonment, it offers 07 storied living with 2000 SFT apartments and 12 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "2000 SFT",
+      "carParking": "12",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.8023,
+      "lng": 90.408
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2022-07-20T00:00:00.000Z"
+  },
+  {
+    "id": "prj-017",
+    "slug": "vision-azzaro",
+    "name": "Vision Azzaro",
+    "category": "ongoing",
+    "location": "Plot# 32/2, Road# 10, Dhaka Cantonment, Dhaka",
+    "plot": "Plot# 32/2",
+    "road": "Road# 10",
+    "sector": "",
+    "area": "Dhaka Cantonment",
+    "city": "Dhaka",
+    "description": "Vision Azzaro is rising in Dhaka Cantonment, with construction progressing on schedule. Every floor is planned around natural light, cross ventilation and the way families actually live. Located on Plot# 32/2, Road# 10 in Dhaka Cantonment, it offers 08 storied living with 2100 SFT / 2300 SFT apartments and 14 dedicated car parking bays.",
+    "featured": false,
+    "status": "Under Construction",
+    "specifications": {
+      "building": "08 Storied",
+      "apartmentSize": "2100 SFT / 2300 SFT",
+      "carParking": "14",
+      "totalApartments": "14"
+    },
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.8063,
+      "lng": 90.404
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2023-09-21T00:00:00.000Z"
+  },
+  {
+    "id": "prj-018",
+    "slug": "vision-liris",
+    "name": "Vision L'iris",
+    "category": "upcoming",
+    "location": "Plot-28, Road-20, Sector-11, Uttara, Dhaka",
+    "plot": "Plot-28",
+    "road": "Road-20",
+    "sector": "Sector-11",
+    "area": "Uttara",
+    "city": "Dhaka",
+    "description": "Vision L'iris is the next Vision address in Uttara. Planning is complete and the launch is close, with early enquiries already being recorded. Located on Plot-28, Road-20 in Uttara, it offers 07 storied living with 1250 SFT / 2500 SFT apartments and 10 dedicated car parking bays.",
+    "featured": true,
+    "status": "Launching Soon",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "1250 SFT / 2500 SFT",
+      "carParking": "10",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 23.8759,
+      "lng": 90.3795
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2026-11-22T00:00:00.000Z"
+  },
+  {
+    "id": "prj-019",
+    "slug": "vision-camelia",
+    "name": "Vision Camelia",
+    "category": "upcoming",
+    "location": "Plot-194, Road-8, Chandgaon R/A, Chittagong",
+    "plot": "Plot-194",
+    "road": "Road-8",
+    "sector": "",
+    "area": "Chandgaon R/A",
+    "city": "Chittagong",
+    "description": "Vision Camelia is the next Vision address in Chandgaon R/A. Planning is complete and the launch is close, with early enquiries already being recorded. Located on Plot-194, Road-8 in Chandgaon R/A, it offers 07 storied living with 1000 SFT apartments and 08 dedicated car parking bays.",
+    "featured": false,
+    "status": "Launching Soon",
+    "specifications": {
+      "building": "07 Storied",
+      "apartmentSize": "1000 SFT",
+      "carParking": "08",
+      "totalApartments": "12"
+    },
+    "image": "https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1565182999561-18d7dc61c393?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "Rooftop Garden",
+      "Gymnasium",
+      "Community Hall"
+    ],
+    "coordinates": {
+      "lat": 22.384,
+      "lng": 91.856
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2026-01-23T00:00:00.000Z"
+  },
+  {
+    "id": "prj-020",
+    "slug": "vision-trade-centre",
+    "name": "Vision Trade Centre",
+    "category": "upcoming",
+    "location": "Tilagor, Sylhet",
+    "plot": "",
+    "road": "",
+    "sector": "",
+    "area": "Tilagor",
+    "city": "Sylhet",
+    "description": "Vision Trade Centre is the next Vision address in Tilagor. Planning is complete and the launch is close, with early enquiries already being recorded. A commercial landmark in Tilagor, designed for businesses that need visibility, easy access and efficient floor plates. Semibasement parking and nine storeys of flexible space.",
+    "featured": false,
+    "status": "Launching Soon",
+    "specifications": {
+      "building": "Semibasement + 09 Storied",
+      "apartmentSize": "62,500 sft total floor area",
+      "carParking": "14",
+      "totalApartments": "Commercial floors",
+      "buildingType": "Commercial Building",
+      "totalFloorArea": "62,500 sft"
+    },
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1431576901776-e539bd916ba2?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "amenities": [
+      "Passenger Lift",
+      "Generator Backup",
+      "Secure Parking",
+      "CCTV Surveillance",
+      "Fire Safety System",
+      "High-Speed Internet Ready",
+      "Security Guard Station",
+      "Water Reservoir"
+    ],
+    "coordinates": {
+      "lat": 24.908,
+      "lng": 91.862
+    },
+    "floorPlan": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+    "createdAt": "2026-03-24T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  .dark {
+    color-scheme: dark;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-slate-900 antialiased;
+  }
+  .dark body {
+    @apply bg-slate-950 text-slate-100;
+  }
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-white;
+  }
+  .dark *:focus-visible {
+    @apply ring-offset-slate-950;
+  }
+  ::selection {
+    background: rgba(200, 155, 60, 0.3);
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+  .eyebrow {
+    @apply mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-accent-500;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-accent;
+  }
+  .heading-serif {
+    @apply font-serif font-semibold tracking-tight text-slate-900 dark:text-white;
+  }
+  .card-base {
+    @apply rounded-xl border border-slate-100 bg-white transition-all duration-300 dark:border-slate-800 dark:bg-slate-900;
+  }
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-lift;
+  }
+  .skeleton {
+    @apply relative overflow-hidden rounded-md bg-slate-100 dark:bg-slate-800;
+  }
+  .skeleton::after {
+    content: "";
+    @apply absolute inset-0 -translate-x-full animate-shimmer bg-gradient-to-r from-transparent via-white/60 to-transparent dark:via-white/10;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
