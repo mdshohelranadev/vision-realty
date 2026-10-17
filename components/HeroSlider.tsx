@@ -33,7 +33,7 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
 
   return (
     <section
-      className="relative isolate h-[88vh] min-h-[560px] w-full overflow-hidden bg-slate-900 lg:h-[92vh]"
+      className="relative isolate h-[88svh] min-h-[640px] w-full overflow-hidden bg-slate-900 lg:h-[92svh]"
       aria-roledescription="carousel"
       aria-label="Featured projects"
       onMouseEnter={() => setPaused(true)}
@@ -61,22 +61,28 @@ export function HeroSlider({ slides }: { slides: HeroSlide[] }) {
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/50 to-slate-950/10" />
       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent" />
 
-      <div className="container relative flex h-full flex-col justify-center pb-24 pt-12">
-        <span className="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-accent-200 backdrop-blur">
+      <div className="container relative flex h-full flex-col justify-center pb-28 pt-8 sm:pb-24 sm:pt-12">
+        <span className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent-200 backdrop-blur sm:mb-5 sm:px-4 sm:text-xs sm:tracking-[0.18em]">
           Premium Developers since 2008
         </span>
-        <h1 className="max-w-3xl font-serif text-4xl font-semibold leading-[1.1] text-white sm:text-5xl lg:text-7xl">
+        <h1 className="max-w-3xl font-serif text-[2.1rem] font-semibold leading-[1.12] text-white sm:text-5xl lg:text-7xl">
           Spaces designed for the way you <span className="text-accent">live</span>
         </h1>
-        <p className="mt-6 max-w-xl text-base leading-relaxed text-slate-200 sm:text-lg">
+        <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-slate-200 sm:mt-6 sm:text-lg">
           Vision creates residential and commercial landmarks across Dhaka, Chittagong and Sylhet,
           built on honest construction, refined design and on-time handover.
         </p>
-        <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-          <Link href="/projects" className={cn(buttonVariants({ variant: "accent", size: "lg" }))}>
+        <div className="mt-7 flex flex-col gap-3 sm:mt-9 sm:flex-row">
+          <Link
+            href="/projects"
+            className={cn(buttonVariants({ variant: "accent", size: "lg" }), "w-full sm:w-auto")}
+          >
             View Projects
           </Link>
-          <Link href="/contact" className={cn(buttonVariants({ variant: "glass", size: "lg" }))}>
+          <Link
+            href="/contact"
+            className={cn(buttonVariants({ variant: "glass", size: "lg" }), "w-full sm:w-auto")}
+          >
             Contact Us
           </Link>
         </div>

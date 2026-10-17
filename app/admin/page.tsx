@@ -139,24 +139,24 @@ export default function AdminDashboardPage() {
           <p className="px-5 pb-8 text-center text-sm text-slate-500">No inquiries have been received yet.</p>
         ) : (
           <div className="overflow-x-auto">
-            <table className="w-full min-w-[640px] text-left text-sm">
+            <table className="w-full text-left text-sm">
               <thead className="border-y border-slate-100 bg-slate-50 text-xs uppercase tracking-wider text-slate-500 dark:border-slate-800 dark:bg-slate-900">
                 <tr>
-                  <th className="px-5 py-3 font-semibold">Name</th>
-                  <th className="px-5 py-3 font-semibold">Project</th>
-                  <th className="px-5 py-3 font-semibold">Phone</th>
-                  <th className="px-5 py-3 font-semibold">Date</th>
-                  <th className="px-5 py-3 font-semibold">Status</th>
+                  <th className="px-4 py-3 font-semibold sm:px-5">Name</th>
+                  <th className="hidden px-5 py-3 font-semibold sm:table-cell">Project</th>
+                  <th className="hidden px-5 py-3 font-semibold md:table-cell">Phone</th>
+                  <th className="px-4 py-3 font-semibold sm:px-5">Date</th>
+                  <th className="px-4 py-3 font-semibold sm:px-5">Status</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
                 {recent.map((i) => (
                   <tr key={i.id}>
-                    <td className="px-5 py-3.5 font-medium">{i.name}</td>
-                    <td className="px-5 py-3.5 text-slate-600 dark:text-slate-400">{i.projectName ?? "General"}</td>
-                    <td className="px-5 py-3.5">{i.phone}</td>
-                    <td className="px-5 py-3.5 text-slate-600 dark:text-slate-400">{formatDate(i.createdAt)}</td>
-                    <td className="px-5 py-3.5">
+                    <td className="px-4 py-3.5 font-medium sm:px-5">{i.name}</td>
+                    <td className="hidden px-5 py-3.5 text-slate-600 dark:text-slate-400 sm:table-cell">{i.projectName ?? "General"}</td>
+                    <td className="hidden px-5 py-3.5 md:table-cell">{i.phone}</td>
+                    <td className="whitespace-nowrap px-4 py-3.5 text-slate-600 dark:text-slate-400 sm:px-5">{formatDate(i.createdAt)}</td>
+                    <td className="px-4 py-3.5 sm:px-5">
                       <Pill tone={i.status === "new" ? "gold" : "slate"}>{i.status === "new" ? "New" : "Read"}</Pill>
                     </td>
                   </tr>

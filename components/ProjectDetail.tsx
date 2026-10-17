@@ -74,7 +74,7 @@ export function ProjectDetail({ slug }: { slug: string }) {
   const waText = `Hello, I would like to know more about ${project.name}.`;
 
   return (
-    <div className="container py-8 sm:py-10">
+    <div className="container pb-24 pt-6 sm:pt-10 lg:pb-12">
       <nav aria-label="Breadcrumb" className="mb-6 text-sm text-slate-500 dark:text-slate-400">
         <ol className="flex flex-wrap items-center gap-1.5">
           <li>
@@ -218,6 +218,27 @@ export function ProjectDetail({ slug }: { slug: string }) {
             </div>
           </div>
         </aside>
+      </div>
+
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-slate-200 bg-white/95 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 lg:hidden">
+        <div className="mx-auto grid max-w-md grid-cols-2 gap-3">
+          <a
+            href={phoneHref(settings.phone)}
+            className={cn(buttonVariants({ variant: "outline", size: "md" }), "w-full")}
+          >
+            <Phone className="h-4 w-4" aria-hidden />
+            Call
+          </a>
+          <a
+            href={whatsappHref(settings.whatsapp, waText)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cn(buttonVariants({ variant: "primary", size: "md" }), "w-full")}
+          >
+            <MessageCircle className="h-4 w-4" aria-hidden />
+            WhatsApp
+          </a>
+        </div>
       </div>
 
       {related.length > 0 && (

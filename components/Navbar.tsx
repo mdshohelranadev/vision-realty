@@ -30,6 +30,7 @@ export function Navbar() {
   const [dropdown, setDropdown] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const dropRef = useRef<HTMLDivElement>(null);
+  const closeBtnRef = useRef<HTMLButtonElement>(null);
   const closeSearch = useCallback(() => setSearchOpen(false), []);
 
   useEffect(() => {
@@ -44,10 +45,32 @@ export function Navbar() {
     setDropdown(false);
   }, [pathname]);
 
+  // Lock page scroll while the full-screen menu is open, and always release it on cleanup.
   useEffect(() => {
-    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    if (!mobileOpen) return;
+    const html = document.documentElement;
+    const prevHtml = html.style.overflow;
+    const prevBody = document.body.style.overflow;
+    html.style.overflow = "hidden";
+    document.body.style.overflow = "hidden";
+
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMobileOpen(false);
+    };
+    // If the device is rotated or resized to desktop width, close the menu so the page never stays locked.
+    const mq = window.matchMedia("(min-width: 1024px)");
+    const onChange = (e: MediaQueryListEvent) => {
+      if (e.matches) setMobileOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    mq.addEventListener("change", onChange);
+    closeBtnRef.current?.focus();
+
     return () => {
-      document.body.style.overflow = "";
+      html.style.overflow = prevHtml;
+      document.body.style.overflow = prevBody;
+      document.removeEventListener("keydown", onKey);
+      mq.removeEventListener("change", onChange);
     };
   }, [mobileOpen]);
 
@@ -201,12 +224,13 @@ export function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-0 z-[60] flex flex-col overflow-y-auto bg-white dark:bg-slate-950 lg:hidden"
+            transition={{ duration: 0.18 }}
+            className="fixed inset-x-0 top-0 z-[60] flex h-dvh flex-col overflow-y-auto overscroll-contain bg-white dark:bg-slate-950 lg:hidden"
           >
-            <div className="container flex h-16 items-center justify-between">
+            <div className="container flex h-16 shrink-0 items-center justify-between">
               <Logo />
               <button
+                ref={closeBtnRef}
                 type="button"
                 onClick={() => setMobileOpen(false)}
                 aria-label="Close menu"
@@ -216,13 +240,19 @@ export function Navbar() {
               </button>
             </div>
 
-            <div className="container flex flex-1 flex-col py-8">
+            <div
+              className="container flex flex-1 flex-col py-6 pb-10"
+              onClick={(e) => {
+                // Close on any link tap, including links that only change the query string.
+                if ((e.target as HTMLElement).closest("a")) setMobileOpen(false);
+              }}
+            >
               <ul className="space-y-1">
                 {links.slice(0, 1).map((l) => (
                   <li key={l.href}>
                     <Link
                       href={l.href}
-                      className="block rounded-lg px-2 py-3 font-serif text-3xl font-semibold"
+                      className="block rounded-lg px-2 py-2.5 font-serif text-2xl font-semibold sm:text-3xl"
                     >
                       {l.label}
                     </Link>
@@ -231,7 +261,7 @@ export function Navbar() {
                 <li>
                   <Link
                     href="/projects"
-                    className="block rounded-lg px-2 py-3 font-serif text-3xl font-semibold"
+                    className="block rounded-lg px-2 py-2.5 font-serif text-2xl font-semibold sm:text-3xl"
                   >
                     Projects
                   </Link>
@@ -252,7 +282,7 @@ export function Navbar() {
                   <li key={l.href}>
                     <Link
                       href={l.href}
-                      className="block rounded-lg px-2 py-3 font-serif text-3xl font-semibold"
+                      className="block rounded-lg px-2 py-2.5 font-serif text-2xl font-semibold sm:text-3xl"
                     >
                       {l.label}
                     </Link>
@@ -260,7 +290,7 @@ export function Navbar() {
                 ))}
               </ul>
 
-              <div className="mt-auto space-y-3 pt-10">
+              <div className="mt-auto space-y-3 pt-8">
                 <Link
                   href="/contact"
                   className={cn(buttonVariants({ variant: "primary", size: "lg" }), "w-full")}

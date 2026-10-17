@@ -81,8 +81,47 @@ export default function AdminProjectsPage() {
             />
           </div>
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[760px] text-left text-sm">
+          <>
+          <ul className="divide-y divide-slate-100 dark:divide-slate-800 md:hidden">
+            {filtered.map((p) => (
+              <li key={p.id} className="p-4">
+                <div className="flex gap-3">
+                  <span className="relative h-16 w-24 shrink-0 overflow-hidden rounded-lg bg-slate-100 dark:bg-slate-800">
+                    <Image src={p.image} alt="" fill sizes="96px" className="object-cover" />
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="truncate font-serif text-base font-semibold">{p.name}</p>
+                    <p className="mt-0.5 line-clamp-2 text-xs text-slate-500 dark:text-slate-400">
+                      {p.location}
+                    </p>
+                    <div className="mt-2 flex flex-wrap items-center gap-2">
+                      <StatusBadge category={p.category} />
+                      <span className="text-xs text-slate-500 dark:text-slate-400">{p.status}</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-3 grid grid-cols-2 gap-2">
+                  <Link
+                    href={`/admin/projects/edit/${p.id}`}
+                    className={cn(buttonVariants({ variant: "outline", size: "md" }), "w-full")}
+                  >
+                    <Pencil className="h-4 w-4" aria-hidden />
+                    Edit
+                  </Link>
+                  <button
+                    type="button"
+                    onClick={() => setToDelete(p)}
+                    className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg border border-red-200 text-sm font-semibold text-red-600 hover:bg-red-50 dark:border-red-900/50 dark:hover:bg-red-900/30"
+                  >
+                    <Trash2 className="h-4 w-4" aria-hidden />
+                    Delete
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <div className="hidden overflow-x-auto md:block">
+            <table className="w-full min-w-[720px] text-left text-sm">
               <thead className="border-b border-slate-100 bg-slate-50 text-xs uppercase tracking-wider text-slate-500 dark:border-slate-800 dark:bg-slate-900">
                 <tr>
                   <th className="px-5 py-3 font-semibold">Project</th>
@@ -134,6 +173,7 @@ export default function AdminProjectsPage() {
               </tbody>
             </table>
           </div>
+          </>
         )}
       </div>
 

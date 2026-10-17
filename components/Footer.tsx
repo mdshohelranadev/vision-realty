@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Youtube } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { useStore } from "@/lib/store";
@@ -17,6 +18,8 @@ const quickLinks = [
 
 export function Footer() {
   const settings = useStore((s) => s.settings);
+  // Project pages show a fixed mobile contact bar, so leave room for it below the footer text.
+  const hasMobileBar = usePathname().startsWith("/projects/");
 
   const socials = [
     { href: settings.facebook, label: "Facebook", Icon: Facebook },
@@ -95,13 +98,17 @@ export function Footer() {
       </div>
 
       <div className="border-t border-slate-800">
-        <div className="container flex flex-col items-center justify-between gap-2 py-6 text-xs text-slate-500 sm:flex-row">
+        <div
+          className={`container flex flex-col items-center justify-between gap-2 pt-6 text-center text-xs text-slate-500 sm:flex-row sm:text-left lg:pb-6 ${
+            hasMobileBar ? "pb-24" : "pb-6"
+          }`}
+        >
           <p>
             &copy; {new Date().getFullYear()} {settings.companyName}. All rights reserved.
           </p>
-          <Link href="/admin/login" className="hover:text-accent">
-            Staff login
-          </Link>
+          <p>
+            Developed by <span className="font-semibold text-slate-300">Code Ghor Studio</span>
+          </p>
         </div>
       </div>
     </footer>

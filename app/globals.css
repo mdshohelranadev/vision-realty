@@ -13,7 +13,8 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-white text-slate-900 antialiased;
+    @apply overflow-x-clip bg-white text-slate-900 antialiased;
+    -webkit-tap-highlight-color: transparent;
   }
   .dark body {
     @apply bg-slate-950 text-slate-100;

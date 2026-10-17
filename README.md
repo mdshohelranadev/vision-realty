@@ -16,7 +16,7 @@ Requires Node.js 18.17 or newer.
 
 ## Admin panel
 
-- URL: `/admin` (redirects to `/admin/login`)
+- URL: `/admin/login` (open it by typing the address; there is deliberately no link to it anywhere on the public site, and it is not listed in robots.txt)
 - Password: `admin123` (hardcoded in `app/admin/login/page.tsx`)
 - Login sets a `vision_admin` cookie (checked by `middleware.ts` on the Edge) and a localStorage flag (checked by the admin shell).
 - Pages: Dashboard, Projects (list, new, edit), Inquiries, Settings.

@@ -34,7 +34,7 @@ export default function AdminInquiriesPage() {
   return (
     <div className="space-y-5">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <div role="tablist" aria-label="Filter inquiries" className="flex gap-2">
+        <div role="tablist" aria-label="Filter inquiries" className="flex gap-2 overflow-x-auto">
           {filters.map((f) => (
             <button
               key={f.key}
@@ -74,8 +74,57 @@ export default function AdminInquiriesPage() {
             />
           </div>
         ) : (
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[860px] text-left text-sm">
+          <>
+          <ul className="divide-y divide-slate-100 dark:divide-slate-800 md:hidden">
+            {list.map((i) => (
+              <li
+                key={i.id}
+                className={cn("space-y-3 p-4", i.status === "new" && "bg-accent-50/40 dark:bg-accent/5")}
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <p className="truncate font-semibold">{i.name}</p>
+                    {i.projectName && (
+                      <p className="truncate text-xs text-slate-500">{i.projectName}</p>
+                    )}
+                  </div>
+                  <Pill tone={i.status === "new" ? "gold" : "slate"}>
+                    {i.status === "new" ? "New" : "Read"}
+                  </Pill>
+                </div>
+                <p className="text-sm text-slate-700 dark:text-slate-300">{i.message}</p>
+                <div className="space-y-1 text-sm text-slate-600 dark:text-slate-400">
+                  <a href={`tel:${i.phone.replace(/[^+\d]/g, "")}`} className="block hover:text-primary">
+                    {i.phone}
+                  </a>
+                  <a href={`mailto:${i.email}`} className="block break-all hover:text-primary">
+                    {i.email}
+                  </a>
+                  <p className="text-xs text-slate-500">{formatDate(i.createdAt)}</p>
+                </div>
+                <div className="grid grid-cols-2 gap-2">
+                  {i.status === "new" ? (
+                    <Button variant="outline" onClick={() => markInquiryRead(i.id)}>
+                      <CheckCheck className="h-4 w-4" aria-hidden />
+                      Mark read
+                    </Button>
+                  ) : (
+                    <span />
+                  )}
+                  <button
+                    type="button"
+                    onClick={() => setToDelete(i)}
+                    className="inline-flex h-11 w-full items-center justify-center gap-2 rounded-lg border border-red-200 text-sm font-semibold text-red-600 hover:bg-red-50 dark:border-red-900/50 dark:hover:bg-red-900/30"
+                  >
+                    <Trash2 className="h-4 w-4" aria-hidden />
+                    Delete
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <div className="hidden overflow-x-auto md:block">
+            <table className="w-full min-w-[760px] text-left text-sm">
               <thead className="border-b border-slate-100 bg-slate-50 text-xs uppercase tracking-wider text-slate-500 dark:border-slate-800 dark:bg-slate-900">
                 <tr>
                   <th className="px-5 py-3 font-semibold">Name</th>
@@ -158,6 +207,7 @@ export default function AdminInquiriesPage() {
               </tbody>
             </table>
           </div>
+          </>
         )}
       </div>
 
